@@ -1,0 +1,46 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Core Web Vitals Thresholds</title>
+        <style>
+            body { font-family: Arial, sans-serif; padding: 20px; }
+            .chart-container { max-width: 800px; margin: 0 auto; }
+            .chart-title { text-align: center; margin-bottom: 30px; color: #333; }
+            .metric { margin-bottom: 20px; }
+            .metric-label { font-weight: bold; margin-bottom: 5px; }
+            .bar-container { background: #f0f0f0; height: 40px; position: relative; border-radius: 5px; }
+            .bar { height: 100%; border-radius: 5px; display: flex; align-items: center; padding: 0 10px; color: white; font-weight: bold; }
+            .lcp-bar { background: #1FB8CD; width: 100%; }
+            .inp-bar { background: #1FB8CD; width: 8%; }
+            .cls-bar { background: #1FB8CD; width: 10%; }
+        </style>
+    </head>
+    <body>
+        <div class="chart-container">
+            <h2 class="chart-title">Google Core Web Vitals Thresholds (2025)</h2>
+            
+            <div class="metric">
+                <div class="metric-label">Largest Contentful Paint (LCP)</div>
+                <div class="bar-container">
+                    <div class="bar lcp-bar">2500ms</div>
+                </div>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-label">Interaction to Next Paint (INP)</div>
+                <div class="bar-container">
+                    <div class="bar inp-bar">200ms</div>
+                </div>
+            </div>
+            
+            <div class="metric">
+                <div class="metric-label">Cumulative Layout Shift (CLS)</div>
+                <div class="bar-container">
+                    <div class="bar cls-bar">0.1</div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    

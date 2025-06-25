@@ -1,0 +1,357 @@
+{
+  "designSystem": {
+    "name": "Cursor Light Theme",
+    "description": "Modern light theme design system inspired by Cursor AI's website with sophisticated gradients, clean typography, and premium visual effects",
+    "version": "1.0.0"
+  },
+  "colorPalette": {
+    "primary": {
+      "white": "#FFFFFF",
+      "black": "#000000",
+      "gray-50": "#F9FAFB",
+      "gray-100": "#F3F4F6",
+      "gray-200": "#E5E7EB",
+      "gray-300": "#D1D5DB",
+      "gray-400": "#9CA3AF",
+      "gray-500": "#6B7280",
+      "gray-600": "#4B5563",
+      "gray-700": "#374151",
+      "gray-800": "#1F2937",
+      "gray-900": "#111827"
+    },
+    "gradients": {
+      "primary": {
+        "start": "#8B5CF6",
+        "middle": "#EC4899",
+        "end": "#F59E0B",
+        "direction": "135deg"
+      },
+      "secondary": {
+        "start": "#3B82F6",
+        "end": "#10B981",
+        "direction": "135deg"
+      },
+      "background": {
+        "start": "#FFFFFF",
+        "end": "#F8FAFC",
+        "direction": "180deg"
+      },
+      "card": {
+        "start": "#FFFFFF",
+        "end": "#F1F5F9",
+        "direction": "145deg"
+      }
+    },
+    "accent": {
+      "purple": "#8B5CF6",
+      "pink": "#EC4899",
+      "blue": "#3B82F6",
+      "green": "#10B981",
+      "orange": "#F59E0B",
+      "red": "#EF4444"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+      "mono": "'JetBrains Mono', 'Fira Code', monospace"
+    },
+    "scale": {
+      "hero": {
+        "fontSize": "clamp(48px, 8vw, 96px)",
+        "lineHeight": "1.1",
+        "fontWeight": "700",
+        "color": "#000000",
+        "letterSpacing": "-0.02em"
+      },
+      "h1": {
+        "fontSize": "clamp(36px, 6vw, 64px)",
+        "lineHeight": "1.2",
+        "fontWeight": "700",
+        "color": "#000000",
+        "letterSpacing": "-0.01em"
+      },
+      "h2": {
+        "fontSize": "clamp(28px, 5vw, 48px)",
+        "lineHeight": "1.3",
+        "fontWeight": "600",
+        "color": "#111827"
+      },
+      "h3": {
+        "fontSize": "clamp(20px, 4vw, 32px)",
+        "lineHeight": "1.4",
+        "fontWeight": "600",
+        "color": "#1F2937"
+      },
+      "body": {
+        "fontSize": "clamp(16px, 2.5vw, 18px)",
+        "lineHeight": "1.6",
+        "fontWeight": "400",
+        "color": "#4B5563"
+      },
+      "caption": {
+        "fontSize": "clamp(14px, 2vw, 16px)",
+        "lineHeight": "1.5",
+        "fontWeight": "500",
+        "color": "#6B7280"
+      }
+    }
+  },
+  "elementStyling": {
+    "backgrounds": {
+      "page": {
+        "background": "linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%)",
+        "context": "Main page background container"
+      },
+      "section": {
+        "background": "#FFFFFF",
+        "context": "Section containers and content areas"
+      },
+      "hero": {
+        "background": "linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%)",
+        "context": "Hero section gradient overlay"
+      }
+    },
+    "cards": {
+      "container": {
+        "background": "#FFFFFF",
+        "border": "1px solid #E5E7EB",
+        "borderRadius": "16px",
+        "shadow": "0 4px 24px rgba(0, 0, 0, 0.08)",
+        "context": "Main card containers"
+      },
+      "hover": {
+        "background": "#FFFFFF",
+        "border": "1px solid #D1D5DB",
+        "shadow": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "transform": "translateY(-4px)",
+        "context": "Card hover state"
+      },
+      "content": {
+        "padding": "clamp(20px, 4vw, 32px)",
+        "context": "Card content padding"
+      },
+      "icons": {
+        "background": "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
+        "color": "#FFFFFF",
+        "size": "clamp(20px, 3vw, 24px)",
+        "context": "Icons within cards - NOT card backgrounds"
+      }
+    },
+    "buttons": {
+      "primary": {
+        "background": "#000000",
+        "color": "#FFFFFF",
+        "fontSize": "clamp(14px, 2.5vw, 16px)",
+        "fontWeight": "600",
+        "padding": "clamp(12px, 2vw, 16px) clamp(20px, 4vw, 32px)",
+        "borderRadius": "12px",
+        "border": "none",
+        "shadow": "0 4px 16px rgba(0, 0, 0, 0.2)",
+        "context": "Primary action buttons"
+      },
+      "primaryHover": {
+        "background": "#1F2937",
+        "transform": "translateY(-2px)",
+        "shadow": "0 8px 24px rgba(0, 0, 0, 0.3)",
+        "context": "Primary button hover state"
+      },
+      "secondary": {
+        "background": "#FFFFFF",
+        "color": "#000000",
+        "fontSize": "clamp(14px, 2.5vw, 16px)",
+        "fontWeight": "600",
+        "padding": "clamp(12px, 2vw, 16px) clamp(20px, 4vw, 32px)",
+        "borderRadius": "12px",
+        "border": "1px solid #E5E7EB",
+        "shadow": "0 2px 8px rgba(0, 0, 0, 0.04)",
+        "context": "Secondary action buttons"
+      },
+      "secondaryHover": {
+        "background": "#F9FAFB",
+        "border": "1px solid #D1D5DB",
+        "shadow": "0 4px 12px rgba(0, 0, 0, 0.08)",
+        "context": "Secondary button hover state"
+      },
+      "icons": {
+        "color": "inherit",
+        "size": "clamp(16px, 2vw, 20px)",
+        "context": "Icons within buttons - inherit button text color"
+      }
+    },
+    "navigation": {
+      "container": {
+        "background": "rgba(255, 255, 255, 0.8)",
+        "backdropFilter": "blur(12px)",
+        "border": "1px solid rgba(229, 231, 235, 0.6)",
+        "padding": "clamp(16px, 3vw, 20px) clamp(20px, 4vw, 32px)",
+        "context": "Navigation bar container"
+      },
+      "links": {
+        "color": "#4B5563",
+        "fontSize": "clamp(14px, 2vw, 16px)",
+        "fontWeight": "500",
+        "context": "Navigation link text"
+      },
+      "linksHover": {
+        "color": "#8B5CF6",
+        "context": "Navigation link hover state"
+      },
+      "logo": {
+        "color": "#000000",
+        "fontSize": "clamp(18px, 3vw, 24px)",
+        "fontWeight": "700",
+        "context": "Logo text styling"
+      }
+    },
+    "codeBlocks": {
+      "container": {
+        "background": "#1F2937",
+        "border": "1px solid #374151",
+        "borderRadius": "16px",
+        "padding": "clamp(20px, 4vw, 32px)",
+        "shadow": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "context": "Code block containers"
+      },
+      "text": {
+        "fontFamily": "'JetBrains Mono', monospace",
+        "color": "#F9FAFB",
+        "fontSize": "clamp(13px, 2vw, 15px)",
+        "lineHeight": "1.6",
+        "context": "Code text content"
+      },
+      "syntax": {
+        "keyword": "#8B5CF6",
+        "string": "#10B981",
+        "comment": "#6B7280",
+        "function": "#3B82F6",
+        "number": "#F59E0B",
+        "context": "Syntax highlighting colors"
+      }
+    },
+    "gradientElements": {
+      "heroBackground": {
+        "background": "linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%)",
+        "context": "ONLY for hero section backgrounds"
+      },
+      "iconContainers": {
+        "background": "linear-gradient(135deg, #3B82F6 0%, #10B981 100%)",
+        "context": "ONLY for icon container backgrounds, NOT the icons themselves"
+      },
+      "cardAccents": {
+        "background": "linear-gradient(90deg, #8B5CF6 0%, #EC4899 100%)",
+        "context": "ONLY for card accent borders or highlights"
+      },
+      "textGradients": {
+        "background": "linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)",
+        "webkitBackgroundClip": "text",
+        "webkitTextFillColor": "transparent",
+        "context": "ONLY for gradient text effects on headings"
+      }
+    },
+    "shadows": {
+      "card": {
+        "default": "0 4px 24px rgba(0, 0, 0, 0.08)",
+        "hover": "0 8px 32px rgba(0, 0, 0, 0.12)",
+        "context": "Card container shadows"
+      },
+      "button": {
+        "default": "0 4px 16px rgba(0, 0, 0, 0.1)",
+        "hover": "0 8px 24px rgba(0, 0, 0, 0.15)",
+        "context": "Button shadows"
+      },
+      "navigation": {
+        "default": "0 2px 16px rgba(0, 0, 0, 0.04)",
+        "context": "Navigation bar shadow"
+      }
+    },
+    "spacing": {
+      "container": {
+        "maxWidth": "1200px",
+        "padding": "0 clamp(20px, 4vw, 32px)",
+        "margin": "0 auto",
+        "context": "Main container spacing"
+      },
+      "section": {
+        "paddingY": "clamp(40px, 8vw, 80px)",
+        "context": "Section vertical spacing"
+      },
+      "grid": {
+        "gap": "clamp(20px, 4vw, 32px)",
+        "context": "Grid and flex gap spacing"
+      }
+    }
+  },
+  "componentPatterns": {
+    "heroSection": {
+      "structure": "gradient background + centered content + large typography",
+      "background": "linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%)",
+      "textColor": "#FFFFFF",
+      "alignment": "center"
+    },
+    "featureCards": {
+      "structure": "white cards + icon containers + descriptive text",
+      "cardBackground": "#FFFFFF",
+      "iconBackground": "linear-gradient(135deg, #3B82F6 0%, #10B981 100%)",
+      "iconColor": "#FFFFFF",
+      "textColor": "#4B5563"
+    },
+    "navigationBar": {
+      "structure": "glassmorphism + logo + links + cta button",
+      "background": "rgba(255, 255, 255, 0.8)",
+      "backdrop": "blur(12px)",
+      "linkColor": "#4B5563",
+      "ctaStyle": "black button"
+    }
+  },
+  "animations": {
+    "transitions": {
+      "default": "all 0.3s cubic-bezier(0.4, 0.0, 0.2, 1)",
+      "fast": "all 0.15s ease-out",
+      "slow": "all 0.5s ease-in-out"
+    },
+    "hover": {
+      "scale": "scale(1.02)",
+      "translateY": "translateY(-4px)",
+      "shadow": "increase shadow depth"
+    }
+  },
+  "breakpoints": {
+    "mobile": "320px",
+    "tablet": "768px",
+    "desktop": "1024px",
+    "wide": "1440px"
+  },
+  "doNotRules": {
+    "gradients": [
+      "DO NOT apply hero gradients to cards or buttons",
+      "DO NOT apply card gradients to text elements",
+      "DO NOT apply button gradients to icons",
+      "DO NOT use gradient backgrounds on navigation links"
+    ],
+    "colors": [
+      "DO NOT use card background colors for text",
+      "DO NOT use button text colors for card backgrounds",
+      "DO NOT use navigation colors for content text",
+      "DO NOT mix gradient and solid colors on same element"
+    ],
+    "shadows": [
+      "DO NOT apply card shadows to text elements",
+      "DO NOT apply button shadows to icons",
+      "DO NOT stack multiple shadow effects",
+      "DO NOT use shadows on transparent backgrounds"
+    ],
+    "typography": [
+      "DO NOT use hero font sizes for body text",
+      "DO NOT use button font weights for paragraphs",
+      "DO NOT apply text gradients to body content",
+      "DO NOT use code fonts for UI text"
+    ]
+  },
+  "usage": {
+    "primaryPurpose": "Light theme design system for modern web applications",
+    "targetDevices": "Desktop, tablet, and mobile responsive",
+    "designPhilosophy": "Clean, modern, professional with subtle gradients and excellent readability",
+    "accessibility": "High contrast ratios, proper focus states, reduced motion support"
+  }
+} 
