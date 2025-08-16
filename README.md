@@ -4,7 +4,7 @@
 A production-ready OCR solution that converts images/documents to CSV and Excel formats with smart data formatting.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshreya251-oss%2FSnapSheet)  
-**Live Demo**: [https://snapsheet.heyadrsh.tech](https://snap-sheet.vercel.app/)
+**Live Demo**: [snap-sheet.vercel.app](https://snap-sheet.vercel.app/)
 
 ![GitHub stars](https://img.shields.io/github/stars/shreya251-oss/SnapSheet?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/shreya251-oss/SnapSheet?style=social)
